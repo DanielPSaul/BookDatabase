@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+body {
+	background-color: salmon;
+	font-family: Times New Roman;
+	text-align: center;
+}
+
+.image {
+	margin-bottom: auto;
+}
+
+.header {
+	position: relative;
+	top: 16px;
+	left: 10px;
+	text-align: center;
+	font-family: "Times New Roman";
+	border-bottom: 4px solid;
+}
+
+.intro {
+  text-indent: 50px;
+  text-align: justify;
+  border: solid;
+  width: 400px;
+  display: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.button1 {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Times New Roman";
+}
+
+.button1:hover {
+  color: red;
+  text-decoration: none;
+}
+
+
+table, .table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+table a {
+	text-decoration: none;
+	color: black;
+}
+
+table, td, th {
+  padding: 6px;
+  border: 1px solid black;
+  font-family: "Times New Roman";
+  border-collapse: collapse;
+}
+
+.update {
+  text-decoration: none;
+  background-color: grey;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  padding: 2px 6px 2px 6px;
+}
+
+.delete {
+  background-color: grey;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  padding: 2px 6px 2px 6px;
+  cursor: pointer;
+}
+
+.update:hover {
+	color: red;
+}
+
+.delete input[type=submit]:hover {
+	color: red;
+}
+
+tr:first-child { 
+	font-weight: bold;
+}
+
+form label {
+	display: block;
+	margin: 0px 0px 15px 0px;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+
+form {
+	padding: 20px 12px 10px 20px;
+	font: "Times New Roman";
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.rating {
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+form input[type=text] {
+  width: 40%;
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submitButton {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Times New Roman";
+  margin-bottom: 15px;
+  float: center;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.submitButton:hover {
+	color: red;
+}
+
+.filter ul {
+ 	 list-style-type: none;
+ 	 margin: 0;
+ 	 padding: 0;
+ 	 overflow: hidden;
+ 	 background-color: grey;
+}
+
+.filter li {
+  	float: left;
+}
+
+.filter li a {
+ 	 display: inline;
+ 	 color: white;
+ 	 text-align: center;
+ 	 padding: 14px 16px;
+ 	 text-decoration: none;
+ 	 font-family: "Times New Roman";
+}
+
+.filter li a:hover {
+  	 color: red;
+}
+
+footer {
+	 font-family: "Times New Roman";
+	 background-color: grey;
+	 color: white;
+	 text-align: center;
+	 position: fixed;
+	 left: 0;
+ 	 bottom: 0;
+ 	 width: 100%;
+}
